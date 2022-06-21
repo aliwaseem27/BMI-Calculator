@@ -1,0 +1,28 @@
+name: bmi_calculator
+description: Normal Body is a Beautiful Body
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.2.0+2
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  font_awesome_flutter: ^10.1.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+
+flutter:
+  uses-material-design: true
